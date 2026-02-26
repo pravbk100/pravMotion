@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>PROTELESTRATOR::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>ProTelestrator</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s ProTelestrator plugin, blocking 1.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>PFSMask::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>ProPan</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.10</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s ProPan plugin, blocking 1.10 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>PROKEYFRAME::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>ProKeyFrame</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s ProKeyFrame plugin, blocking 1.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Projection</string>
+		</array>
+		<key>Name Override</key>
+		<string>Projection</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.1</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s Projection plugin, blocking 1.1 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>FCPX3DModel::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>FCPX 3D: Model</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s FCPX3D: Model plugin, blocking 1.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>FCPXAudioEffector::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>FCPX: Audio Effector</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s FCPXAudioEffector plugin, blocking 1.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>FCPXLutLoader::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>FCPX LUT Loader</string>
+		<key>Bundle Name Override</key>
+		<string>Pixel Film Studios</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>PixelFilmStudio&apos;s FCPX Lut Loader plugin, blocking 1.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>CrumplePop-AutoBalance</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string>CrumplePop</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0.0.9</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>CrumplePop&apos;s AutoBalance plugin, blocking 1.0.0.9 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>fi.lacquer.fxplug.Conduit</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>3.0</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>New item</key>
+		<string>Lacquer&apos;s Conduit plugin, blocking 3.0 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>com.absoft.NeatVideo FC</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<true/>
+		<key>Version Upper Limit</key>
+		<string>3.2.0</string>
+		<key>Version Lower Limit</key>
+		<string>3.2.0</string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>NeatVideo plugin, blocking version 3.2.0</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>com.noiseindustries.FxFactory.FxPlug</string>
+			<string>com.fxfactory.FxPlugEmbedded</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>4.0.2</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>FxFactory bundle, blocking 4.0.2 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>motionVFXmFlare::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.5.4</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>4D6DEE18-4E51-493F-AE62-F7C254C24C0F</string>
+		<key>Debug info</key>
+		<string>motionVFX mFlare plugin, blocking 1.5.4 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>MXFExport Plugin</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>UUID</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string></string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>69B62B00-9245-4091-9FBC-B4FD82AA3385</string>
+		<key>Debug info</key>
+		<string>MXFExport Plugin replace with native Export</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>4 Point Mask Layer</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>8F014E4C-2262-43D1-BA10-B8DE1FC383D4</string>
+		<key>Debug info</key>
+		<string>Coremelt Gadget 4 point Mask Layer</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Barcode Wipe *</string>
+			<string>Barcode Wipe</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>DC727F58-E838-4CD0-A796-4DD708229206</string>
+		<key>Debug info</key>
+		<string>Coremelt Gadget Barcode Wipe</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Shapes Grow *</string>
+			<string>Shapes Grow</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>D79818FC-3916-4657-9951-1B27C9EA51C0</string>
+		<key>Debug info</key>
+		<string>Coremelt TRX Shape Grow</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Light Streaks *</string>
+			<string>Light Streaks</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>9B2FF966-4F58-4906-B0E0-644F84013280</string>
+		<key>Debug info</key>
+		<string>Coremelt TRX Light Streaks</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Filmstrip *</string>
+			<string>Filmstrip</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>A80B6137-9A8B-48F0-982C-437FFD4BD2D0</string>
+		<key>Debug info</key>
+		<string>Coremelt TRX Filmstrip Drop/Fuji</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Camera Shutter *</string>
+			<string>Camera Shutter</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>CFFE28DC-36EB-427E-9D2F-D39DDF1A1DB4</string>
+		<key>Debug info</key>
+		<string>Coremelt TRX Camera Shutter</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>VideoScreens Collapse *</string>
+			<string>VideoScreens Collapse</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>F3E40AA0-A44A-4D99-95C2-A585C38FCDC9</string>
+		<key>Debug info</key>
+		<string>Coremelt Delta V Videoscreens Collapse</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Glass Fracture *</string>
+			<string>Glass Fracture</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string>0E2B3845-D7AB-481D-8AF8-0A0388A338CC</string>
+		<key>Debug info</key>
+		<string>Coremelt Delta V Videoscreens Collapse</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Color Finale</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string>Color Grading Central</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.9.3</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>Color Finale, blocking 1.9.3 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>BeautyBox::FxPlug Name</string>
+		</array>
+		<key>Name Override</key>
+		<string>Beauty Box</string>
+		<key>Bundle Name Override</key>
+		<string>Digital Anarchy</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>4.2</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>Beauty Box plugin, blocking 4.2 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>LUT Gallery</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string>Color Grading Central</string>
+		<key>Block Type</key>
+		<string>Version</string>
+		<key>Bundle Block</key>
+		<false/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>1.0.9</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>LUT Gallery, blocking 1.0.9 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>Lock &amp; Load</string>
+			<string>com.pixlock.fcpx.LocknLoad.fxplug</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Bundle</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>3.0.3</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>CoreMelt Lock &amp; Load, blocking 3.0.3 and below</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<array>
+			<string>com.pixlock.FxPlug.VTwinFx.fxplug</string>
+		</array>
+		<key>Name Override</key>
+		<string></string>
+		<key>Bundle Name Override</key>
+		<string></string>
+		<key>Block Type</key>
+		<string>Bundle</string>
+		<key>Bundle Block</key>
+		<true/>
+		<key>Range Block</key>
+		<false/>
+		<key>Version Upper Limit</key>
+		<string>2.40.6</string>
+		<key>Version Lower Limit</key>
+		<string></string>
+		<key>UUID</key>
+		<string></string>
+		<key>Debug info</key>
+		<string>CoreMelt VTwinFX, blocking 2.40.6 and below. VTwinFX is a framework used by most/all CoreMelt plugins, so this effectively blocks all of them which use the VTwinFX 2.40.6 framework or older </string>
+	</dict>
+</array>
+</plist>
