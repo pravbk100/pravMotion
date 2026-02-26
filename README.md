@@ -1,4 +1,4 @@
-<div align="center">
+<htediv align="center">
   <img src="readme_assets/icon512.png" width="120" alt="pravMotion Icon">   
   <h1>✨ pravMotion - An animation plugin for Final Cut pro</h1>
   <p><b>PravMotion plugin is a final cut pro plugin and effect built using apple’s fxplug sdk and Apple motion. Create motion graphic animations with ease using this plugin. Supports final cut pro 11 and 12.</b></p>
@@ -74,7 +74,7 @@ You can choose various types of easing types for your animation which final cut 
 ### 📦 What's Included?
 - ✅ **prvMotion App** To install the plugin and use it in final cut pro or motion.
 - ✅ **pravMotion effect** The motion effect template.
-- ✅ **Manual** Instructions on installation and details about hte plugin.
+- ✅ **Manual** Instructions on installation and details about the plugin.
 
 <br/>
 
