@@ -59,7 +59,7 @@
 ### 🎨 Why pravMotion?
 You can choose various types of easing types for your animation which final cut pro and motion lacks. And The best of all, there are no keyframes. The plugin handles duration set by you. And Using time offset, you can adjust the time for - where the animation should start from, as you desire.
 
-| Feature | Visual Reference |
+| Features | Description |
 | :--- | :--- |
 | **Advanced Easing** <br/> | <div align="center"> Includes more than 20 types of easing. <br/> <img src="readme_assets/easeTypes.png" width="150"> </div> |
 | **Duration** <br/> | *Set the animation duration as you desire.* |
