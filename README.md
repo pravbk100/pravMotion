@@ -65,7 +65,7 @@ pravMotion is released under the **MIT License**. You are free to use, modify, a
 ---
 ## 📦 Prebuilt Package and Template
 ### I will offer a prebuilt app and template of the plugin for a small cost.
-> **Coming Soon:** Stay tuned for a streamlined installer that handles the setup for you.
+> **Coming Soon:** Stay tuned for a streamlined installer/app/template that handles the setup for you.
 <br/>
 
 ---
