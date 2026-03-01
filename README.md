@@ -63,10 +63,23 @@ pravMotion is released under the **MIT License**. You are free to use, modify, a
 <br/>
 
 ---
-## 📦 Prebuilt Package and Template
-### I will offer a prebuilt app and template of the plugin for a small cost.
-> **Coming Soon:** Stay tuned for a streamlined installer/app/template that handles the setup for you.
-<br/>
+## 📦 Prebuilt Package & Support
+
+The prebuilt app, templates, and manual are available in the **[Releases section](https://github.com/pravbk100/pravMotion/releases)**.
+
+### Support the Project
+If you find this tool useful, consider supporting the project through these platforms:
+
+<a href="https://github.com/sponsors/pravbk100">
+  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=github&logoColor=white" alt="Sponsor on GitHub" />
+</a>
+<a href="https://buy.polar.sh/polar_cl_95DZZjyDJDV5mJakAj36B4prw5cNcl4PDJIuA1DQW4u">
+  <img src="https://img.shields.io/badge/Donate_on_Polar-4C90FF?style=for-the-badge&logo=polar&logoColor=white" alt="Donate on Polar" />
+</a>
+<a href="https://www.patreon.com/pravbk100">
+  <img src="https://img.shields.io/badge/Support_on_Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white" alt="Support on Patreon" />
+</a>
+
 
 ---
 ### 🤝 Contributing
