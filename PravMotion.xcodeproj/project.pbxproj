@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3986A982F345D1F0098343A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986A972F345D1F0098343A /* Cocoa.framework */; };
+		A3986AA02F345D1F0098343A /* PravMotion XPC Service.pluginkit in Embed PlugIns */ = {isa = PBXBuildFile; fileRef = A3986A9F2F345D1F0098343A /* PravMotion XPC Service.pluginkit */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3986AA42F345D1F0098343A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AA32F345D1F0098343A /* Foundation.framework */; };
+		A3986AA62F345D1F0098343A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AA52F345D1F0098343A /* AppKit.framework */; };
+		A3986AA82F345D1F0098343A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AA72F345D1F0098343A /* Accelerate.framework */; };
+		A3986B0E2F3471C50098343A /* FxPlug.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AAB2F345D1F0098343A /* FxPlug.framework */; };
+		A3986B0F2F3471C50098343A /* FxPlug.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AAB2F345D1F0098343A /* FxPlug.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A3986B112F3471CB0098343A /* PluginManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AA92F345D1F0098343A /* PluginManager.framework */; };
+		A3986B122F3471CB0098343A /* PluginManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A3986AA92F345D1F0098343A /* PluginManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3986AA12F345D1F0098343A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3986A8C2F345D1F0098343A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3986A9E2F345D1F0098343A;
+			remoteInfo = "XPC Service";
+		};
+		A3986AAD2F345D1F0098343A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3986A8C2F345D1F0098343A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3986A9E2F345D1F0098343A;
+			remoteInfo = "XPC Service";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3986AD52F345D1F0098343A /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A3986AA02F345D1F0098343A /* PravMotion XPC Service.pluginkit in Embed PlugIns */,
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3986B102F3471C50098343A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A3986B0F2F3471C50098343A /* FxPlug.framework in Embed Frameworks */,
+				A3986B122F3471CB0098343A /* PluginManager.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A3986A942F345D1F0098343A /* PravMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PravMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3986A972F345D1F0098343A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A3986A9F2F345D1F0098343A /* PravMotion XPC Service.pluginkit */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PravMotion XPC Service.pluginkit"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3986AA32F345D1F0098343A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3986AA52F345D1F0098343A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A3986AA72F345D1F0098343A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A3986AA92F345D1F0098343A /* PluginManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PluginManager.framework; path = Library/Frameworks/../../../../../../Library/Developer/Frameworks/PluginManager.framework; sourceTree = DEVELOPER_DIR; };
+		A3986AAB2F345D1F0098343A /* FxPlug.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FxPlug.framework; path = Library/Frameworks/../../../../../../Library/Developer/Frameworks/FxPlug.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A3986AD12F345D1F0098343A /* Exceptions for "PravMotion" folder in "Wrapper Application" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Plugin/InfoPlist.strings",
+				"/Localized: Plugin/Localizable.strings",
+				Plugin/Info.plist,
+				Plugin/main.swift,
+				Plugin/MetalDeviceCache.swift,
+				Plugin/PravMotionPlugIn.swift,
+				Plugin/TileableRemoteBrightness.metal,
+				"Wrapper Application/Info.plist",
+			);
+			target = A3986A932F345D1F0098343A /* Wrapper Application */;
+		};
+		A3986AD92F345D1F0098343A /* Exceptions for "PravMotion" folder in "XPC Service" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Wrapper Application/Credits.rtf",
+				"/Localized: Wrapper Application/InfoPlist.strings",
+				"/Localized: Wrapper Application/MainMenu.xib",
+				Plugin/Info.plist,
+				"Wrapper Application/AppDelegate.swift",
+				"Wrapper Application/Info.plist",
+				"Wrapper Application/Media.xcassets",
+			);
+			target = A3986A9E2F345D1F0098343A /* XPC Service */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3986AAF2F345D1F0098343A /* PravMotion */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A3986AD12F345D1F0098343A /* Exceptions for "PravMotion" folder in "Wrapper Application" target */,
+				A3986AD92F345D1F0098343A /* Exceptions for "PravMotion" folder in "XPC Service" target */,
+			);
+			path = PravMotion;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3986A912F345D1F0098343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3986A982F345D1F0098343A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3986A9A2F345D1F0098343A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3986AA82F345D1F0098343A /* Accelerate.framework in Frameworks */,
+				A3986AA42F345D1F0098343A /* Foundation.framework in Frameworks */,
+				A3986B112F3471CB0098343A /* PluginManager.framework in Frameworks */,
+				A3986AA62F345D1F0098343A /* AppKit.framework in Frameworks */,
+				A3986B0E2F3471C50098343A /* FxPlug.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3986A8B2F345D1F0098343A = {
+			isa = PBXGroup;
+			children = (
+				A3986AAF2F345D1F0098343A /* PravMotion */,
+				A3986A962F345D1F0098343A /* Frameworks */,
+				A3986A952F345D1F0098343A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3986A952F345D1F0098343A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3986A942F345D1F0098343A /* PravMotion.app */,
+				A3986A9F2F345D1F0098343A /* PravMotion XPC Service.pluginkit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3986A962F345D1F0098343A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3986A972F345D1F0098343A /* Cocoa.framework */,
+				A3986AA32F345D1F0098343A /* Foundation.framework */,
+				A3986AA52F345D1F0098343A /* AppKit.framework */,
+				A3986AA72F345D1F0098343A /* Accelerate.framework */,
+				A3986AA92F345D1F0098343A /* PluginManager.framework */,
+				A3986AAB2F345D1F0098343A /* FxPlug.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3986A932F345D1F0098343A /* Wrapper Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3986AD62F345D1F0098343A /* Build configuration list for PBXNativeTarget "Wrapper Application" */;
+			buildPhases = (
+				A3986A902F345D1F0098343A /* Sources */,
+				A3986A912F345D1F0098343A /* Frameworks */,
+				A3986A922F345D1F0098343A /* Resources */,
+				A3986AD52F345D1F0098343A /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3986AA22F345D1F0098343A /* PBXTargetDependency */,
+				A3986AAE2F345D1F0098343A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A3986AAF2F345D1F0098343A /* PravMotion */,
+			);
+			name = "Wrapper Application";
+			packageProductDependencies = (
+			);
+			productName = "Wrapper Application";
+			productReference = A3986A942F345D1F0098343A /* PravMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3986A9E2F345D1F0098343A /* XPC Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3986AD22F345D1F0098343A /* Build configuration list for PBXNativeTarget "XPC Service" */;
+			buildPhases = (
+				A3986A992F345D1F0098343A /* Sources */,
+				A3986A9A2F345D1F0098343A /* Frameworks */,
+				A3986A9B2F345D1F0098343A /* Resources */,
+				A3986A9C2F345D1F0098343A /* Copy and Code Sign FxPlug.framework */,
+				A3986A9D2F345D1F0098343A /* Copy and Code Sign PluginManager.framework */,
+				A3986B102F3471C50098343A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A3986AAF2F345D1F0098343A /* PravMotion */,
+			);
+			name = "XPC Service";
+			packageProductDependencies = (
+			);
+			productName = "XPC Service";
+			productReference = A3986A9F2F345D1F0098343A /* PravMotion XPC Service.pluginkit */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3986A8C2F345D1F0098343A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A3986A932F345D1F0098343A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A3986A9E2F345D1F0098343A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A3986A8F2F345D1F0098343A /* Build configuration list for PBXProject "PravMotion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3986A8B2F345D1F0098343A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3986A952F345D1F0098343A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3986A932F345D1F0098343A /* Wrapper Application */,
+				A3986A9E2F345D1F0098343A /* XPC Service */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3986A922F345D1F0098343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3986A9B2F345D1F0098343A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3986A9C2F345D1F0098343A /* Copy and Code Sign FxPlug.framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy and Code Sign FxPlug.framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\nrsync --archive --links --whole-file --no-owner --no-group --checksum --exclude='Headers' \"/Library/Developer/Frameworks/FxPlug.framework/\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FxPlug.framework/\"\nif [ \"$?\" -ne 0 ]; then echo \"error: rsync failed; couldn't embed FxPlug.framework\"; exit 1; fi\ncodesign --force --timestamp --options runtime --sign \"${CODE_SIGN_IDENTITY}\" \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/FxPlug.framework\"";
+			showEnvVarsInLog = 0;
+		};
+		A3986A9D2F345D1F0098343A /* Copy and Code Sign PluginManager.framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy and Code Sign PluginManager.framework";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\nrsync --archive --links --whole-file --no-owner --no-group --checksum --exclude='Headers' \"/Library/Developer/Frameworks/PluginManager.framework/\" \"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PluginManager.framework/\"\nif [ \"$?\" -ne 0 ]; then echo \"error: rsync failed; couldn't embed PluginManager.framework\"; exit 1; fi\ncodesign --force --timestamp --options runtime --sign \"${CODE_SIGN_IDENTITY}\" \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/PluginManager.framework\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3986A902F345D1F0098343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3986A992F345D1F0098343A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3986AA22F345D1F0098343A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3986A9E2F345D1F0098343A /* XPC Service */;
+			targetProxy = A3986AA12F345D1F0098343A /* PBXContainerItemProxy */;
+		};
+		A3986AAE2F345D1F0098343A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3986A9E2F345D1F0098343A /* XPC Service */;
+			targetProxy = A3986AAD2F345D1F0098343A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A3986AD32F345D1F0098343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = PravMotion/Plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "PravMotion $(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PravMotion/Plugin/XPC Service-Bridging-Header.h";
+				WRAPPER_EXTENSION = pluginkit;
+			};
+			name = Debug;
+		};
+		A3986AD42F345D1F0098343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = PravMotion/Plugin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@loader_path/../Frameworks",
+				);
+				MACH_O_TYPE = mh_execute;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "PravMotion $(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PravMotion/Plugin/XPC Service-Bridging-Header.h";
+				WRAPPER_EXTENSION = pluginkit;
+			};
+			name = Release;
+		};
+		A3986AD72F345D1F0098343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "PravMotion/Wrapper Application/SandboxEntitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "PravMotion/Wrapper Application/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PravMotion;
+				SWIFT_OBJC_BRIDGING_HEADER = "PravMotion/Wrapper Application/Wrapper Application-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A3986AD82F345D1F0098343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "PravMotion/Wrapper Application/SandboxEntitlements.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				INFOPLIST_FILE = "PravMotion/Wrapper Application/Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = PravMotion;
+				SWIFT_OBJC_BRIDGING_HEADER = "PravMotion/Wrapper Application/Wrapper Application-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A3986ADA2F345D1F0098343A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/FxPlug.sdk;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5;
+			};
+			name = Debug;
+		};
+		A3986ADB2F345D1F0098343A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = /Library/Developer/SDKs/FxPlug.sdk;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3986A8F2F345D1F0098343A /* Build configuration list for PBXProject "PravMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3986ADA2F345D1F0098343A /* Debug */,
+				A3986ADB2F345D1F0098343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3986AD22F345D1F0098343A /* Build configuration list for PBXNativeTarget "XPC Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3986AD32F345D1F0098343A /* Debug */,
+				A3986AD42F345D1F0098343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3986AD62F345D1F0098343A /* Build configuration list for PBXNativeTarget "Wrapper Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3986AD72F345D1F0098343A /* Debug */,
+				A3986AD82F345D1F0098343A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3986A8C2F345D1F0098343A /* Project object */;
+}
