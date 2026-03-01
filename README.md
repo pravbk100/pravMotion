@@ -67,6 +67,10 @@ pravMotion is released under the **MIT License**. You are free to use, modify, a
 
 The prebuilt app, template, and manual are available in the **[Releases section](https://github.com/pravbk100/pravMotion/releases)**.
 
+<a href="https://discord.gg/3YC7j5S5">
+  <img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join Discord" />
+</a>
+
 ### Support the Project
 If you find this tool useful, consider supporting the project through these platforms:
 
