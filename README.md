@@ -63,9 +63,9 @@ pravMotion is released under the **MIT License**. You are free to use, modify, a
 <br/>
 
 ---
-## 📦 Prebuilt Package & Support
+## 📦 Prebuilt Package
 
-The prebuilt app, templates, and manual are available in the **[Releases section](https://github.com/pravbk100/pravMotion/releases)**.
+The prebuilt app, template, and manual are available in the **[Releases section](https://github.com/pravbk100/pravMotion/releases)**.
 
 ### Support the Project
 If you find this tool useful, consider supporting the project through these platforms:
