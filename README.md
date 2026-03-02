@@ -56,7 +56,7 @@ To use or build **pravMotion**, ensure your system meets the following specifica
 ---
 
 ## 🔓 Open Source
-This project is open source and built using Apple's **FxPlug SDK**. The final cut pro plugin scene seems close knit one with not enough knowldge flowing around except few big shot developers. I hope this project inspire common final cut users/hobbiests/coders to build more plugins.
+This project is open source and built using Apple's **FxPlug SDK**. The final cut pro plugin scene seems close knit one with not enough knowldge flowing around. I hope this project inspire common final cut users/hobbiests/coders to build more plugins.
 
 ### 📜 License
 pravMotion is released under the **MIT License**. You are free to use, modify, and distribute it in both personal and commercial projects.
