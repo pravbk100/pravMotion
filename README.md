@@ -50,13 +50,14 @@ To use or build **pravMotion**, ensure your system meets the following specifica
 | Component | Minimum Requirement |
 | :--- | :--- |
 | **Xcode** | 16.2 |
+| **FXPlug** | 4.4 |
 | **macOS** | 15.7.3 (Sequoia) |
 | **Motion** | 5.9 |
 | **Works in** | Final Cut Pro 11 & 12 |
 ---
 
 ## 🔓 Open Source
-This project is open source and built using Apple's **FxPlug SDK**. The Final Cut Pro plugin scene can often feel closed-off; I hope this project inspires users, hobbyists, and coders to build more tools for the community.
+This project source code is available in this repo. I hope this project inspires users, hobbyists, and coders to build more tools for the community.
 
 ### 📜 License
 pravMotion is released under a **Modified MIT License**. 
